@@ -3,3 +3,4 @@ My solutions for "Architetture dei sistemi di elaborazione" laboratories, a.y. 2
 
 * [LAB 01 - MIPS64](lab_01)
 * [LAB 02 - MIPS64](lab_02)
+* [LAB 03 - MIPS64](lab_03)
