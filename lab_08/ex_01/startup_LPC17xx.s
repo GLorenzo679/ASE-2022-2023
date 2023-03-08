@@ -117,10 +117,10 @@ __Vectors       DCD     __initial_sp              ; Top of Stack
 CRP_Key         DCD     0xFFFFFFFF
                 ENDIF
 					
-                AREA    My_DATA, DATA, READWRITE, align = 2
+                AREA    My_DATA, DATA, READWRITE, align = 4
 Opt_M_Coordinates		SPACE    11*22	
 
-                AREA    |.text|, CODE, READONLY,  align = 2
+                AREA    |.text|, CODE, READONLY,  align = 4
 
 ; Reset Handler
 
@@ -218,6 +218,8 @@ SVC_Handler     PROC
 				EOR 	R0, R0, R14			
 				
 				STR		R0, [R1]			;save signature in R0 in PSP
+				
+				B 	exit
 
 test_2
 				CMP 	R0, #0xFE			;if SVC code is 0xFE do compression operation, else exit from exception				
