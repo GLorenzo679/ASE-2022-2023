@@ -1,7 +1,7 @@
 # ASE-2022/2023
 My solutions for "Architetture dei sistemi di elaborazione" laboratories and project, a.y. 2022-2023.
 
-Laboratories:
+## Laboratories:
 
 * [LAB 01 - MIPS64](lab_01)
 * [LAB 02 - MIPS64](lab_02)
@@ -14,7 +14,7 @@ Laboratories:
 * [LAB 09 - ARM (LandTiger)](lab_09)
 * [LAB 10 - ARM (LandTiger)](lab_10)
 
-Project:
+## Project:
 
 The main task was to create a tamagotchi clone for the LandTiger board.
 
